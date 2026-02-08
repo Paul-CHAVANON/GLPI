@@ -7,7 +7,8 @@ Format docker </br>
 **Attention il s'agit d'un fichier de configuration de test et non à utiliser en cas d'usage réel** 
 
 ## Utiliser l'agent GLPI pour remonter d'information
-### 1. Activier l'inventaire dans GLPI, 
+### 1. Activier l'inventaire dans GLPI l'interface 
+Administration > Inventaire > Activer l'inventaire
 ### 2. Télécharger le .deb pour l'installation sur linux
 ```
 wget https://github.com/glpi-project/glpi-agent/releases/download/1.16/glpi-agent_1.16-1_all.deb
