@@ -3,7 +3,7 @@
 ## Installer GLPI
 Format docker </br>
 ./docker-compose.yml</br>
-./mariadb.env
+./mariadb.env</br>
 **Attention il s'agit d'un fichier de configuration de test et non à utiliser en cas d'usage réel** 
 
 ## Utiliser l'agent GLPI pour remonter d'information
