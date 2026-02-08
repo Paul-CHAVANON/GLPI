@@ -1,10 +1,8 @@
 # GLPI
 
 ## Installer GLPI
-Format docker
-**Attention il s'agit d'un fichier de configuration de test et non à utiliser en cas d'usage réel**
-voir docker ./docker-compose.yml
-
+Format docker ./docker-compose.yml
+**Attention il s'agit d'un fichier de configuration de test et non à utiliser en cas d'usage réel** 
 
 ## Utiliser l'agent GLPI pour remonter d'information
 ### 1. Activier l'inventaire dans GLPI, 
@@ -13,8 +11,8 @@ voir docker ./docker-compose.yml
 wget https://github.com/glpi-project/glpi-agent/releases/download/1.16/glpi-agent_1.16-1_all.deb
 ```
 ### 3. Configuration de l'agent GLPI
-Pour une remonté d'informations plus rapide au démarage exemple lors d'un clone cloud init définir la remontée d'informations plus rapidement que les 24h par défaut avec la configuration suivante.
-Dans /etc/glpi-agent/agent.cfg
+Pour une remonté d'informations plus rapide au démarage exemple lors d'un clone cloud init définir la remontée d'informations plus rapidement que les 24h par défaut avec la configuration suivante.</br>
+Dans **/etc/glpi-agent/agent.cfg**
 ```
 # Insérer le liens nom de votre serveur <serveur>
 server = http://<serveur>/front/inventory.php
