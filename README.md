@@ -2,7 +2,7 @@
 
 ## Installer GLPI
 Format docker
-**_Attention il s'agit d'un fichier de configuration de test et non à utiliser en cas d'usage réel_ **
+**Attention il s'agit d'un fichier de configuration de test et non à utiliser en cas d'usage réel**
 voir docker ./docker-compose.yml
 
 
