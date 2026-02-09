@@ -1,7 +1,7 @@
 # GLPI
 
 ## Installer GLPI
-Format docker </br>
+Au format docker utiliser les fichiers ci-dessous </br>
 ./docker-compose.yml</br>
 ./mariadb.env</br>
 **Attention il s'agit d'un fichier de configuration de test et non à utiliser en cas d'usage réel** 
