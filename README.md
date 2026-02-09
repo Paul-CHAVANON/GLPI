@@ -6,8 +6,8 @@ Format docker </br>
 ./mariadb.env</br>
 **Attention il s'agit d'un fichier de configuration de test et non à utiliser en cas d'usage réel** 
 
-## Utiliser l'agent GLPI pour remonter d'information
-### 1. Activier l'inventaire dans GLPI l'interface 
+## Utiliser l'agent GLPI pour remonter des informations sur le PARC informatique
+### 1. Activer l'inventaire dans GLPI l'interface 
 Administration > Inventaire > Activer l'inventaire
 ### 2. Télécharger le .deb pour l'installation sur linux
 ```
@@ -27,9 +27,9 @@ lazy = 0
 full-inventory-postpone = 0
 ```
 
-Si il n'y a pas de remonté d'information tester la commande de debug 
+Si il n'y a pas de remontée d'informations tester les commande suivante 
 ```
-# Test imédiat
+# Test imédiat de remontée
 sudo glpi-agent --force --full
 ```
 ```
