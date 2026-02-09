@@ -1,10 +1,15 @@
 # GLPI
-
+Présentation : 
+- Installation
+- Créer des tickets 
+- Faire une remontée d'informations du parc via l'agent
 ## Installer GLPI
 Au format docker utiliser les fichiers ci-dessous </br>
 ./docker-compose.yml</br>
 ./mariadb.env</br>
 **Attention il s'agit d'un fichier de configuration de test et non à utiliser en cas d'usage réel** 
+## Créer des tickets
+RTFM
 
 ## Utiliser l'agent GLPI pour remonter des informations sur le PARC informatique
 ### 1. Activer l'inventaire dans GLPI l'interface 
