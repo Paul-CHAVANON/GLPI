@@ -41,3 +41,12 @@ sudo glpi-agent --force --full
 # Debug
 sudo glpi-agent --debug --force
 ```
+
+Resultats : 
+Gestion du parc : 
+![Enter image alt description](dashboard-parc.png)
+![Enter image alt description](compute-parc.png)
+
+
+Gestion des tickets : 
+![Enter image alt description](dashboard-tickets.png)
