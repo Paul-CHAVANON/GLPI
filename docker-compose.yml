@@ -1,3 +1,5 @@
+# Hello bienvenue dans le docker compose
+# CHANGEZ LES MOTS DE PASSE !!!
 services:
 #MariaDB Container
   mariadb:
